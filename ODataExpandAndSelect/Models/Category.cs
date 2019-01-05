@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
 namespace ODataExpandAndSelect.Models
 {
@@ -16,7 +14,7 @@ namespace ODataExpandAndSelect.Models
         public virtual ICollection<Product> Products { get; set; }
     }
 
-    public class CategoryList
+    public class ProductList
     {
         public IQueryable<Product> getProducts()
         {
